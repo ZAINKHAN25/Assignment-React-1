@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 20px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 70%);
+}
+
+.numberdiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btnofupward{
+    padding: 15px;
+    border-radius: 100%;
+    border: 1px solid rgb(77, 77, 77);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 70%);
+    transition: all .3s;
+    font-size: larger;
+    margin: 5px 10px;
+}
+
+.btnofupward:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 70%);
+}
+
+.nextprviousdiv{
+    margin: 20px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.paradiv{
+    text-align: center;
+    margin: 50px auto;
+    font-weight: 800;
+}
+
+.nextprviousdiv button{
+    background-color: #6e45f1;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 70%);
+    transition: all .3s;
+    font-weight: bold;
+    color: white;
+    margin: 5px 10px;
+}
+
+.nextprviousdiv button:hover{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 70%);
+}
